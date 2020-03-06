@@ -53,6 +53,16 @@ Then setup your `settings.json` inside your `.vscode` subfolder by adding the fo
 }
 ```
 
+To keep sure, to have the extension installed, create a `extensions.json` file inside the same folder, if needed, and add the following entry as recommendation:
+
+```json
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint"
+    ]
+}
+```
+
 ## Migrate from TSLint
 
 * [Migrate from TSLint to ESLint](https://code.visualstudio.com/api/advanced-topics/tslint-eslint-migration)
