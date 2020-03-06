@@ -53,6 +53,10 @@ Then setup your `settings.json` inside your `.vscode` subfolder by adding the fo
 }
 ```
 
+## Migrate from TSLint
+
+* [Migrate from TSLint to ESLint](https://code.visualstudio.com/api/advanced-topics/tslint-eslint-migration)
+
 ## License
 
 MIT © [e.GO Digital GmbH](https://e-go-digital.com/), Aachen, Germany
