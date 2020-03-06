@@ -1,0 +1,46 @@
+{
+    "name": "eslint-config-ego",
+    "version": "0.1.0",
+    "description": "ESLint shareable config for the e.GO style",
+    "license": "MIT",
+    "repository": "egodigital/eslint-config-ego",
+    "author": {
+        "name": "e.GO Digital GmbH, Aachen, Germany",
+        "email": "hello@e-go-digital.com",
+        "url": "https://e-go-digital.com"
+    },
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "scripts": {},
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "ego",
+        "e.go",
+        "code",
+        "quality",
+        "style",
+        "lint",
+        "linter",
+        "jscs",
+        "jshint",
+        "jslint",
+        "eslint",
+        "validate",
+        "code style",
+        "strict",
+        "check",
+        "checker",
+        "verify",
+        "enforce",
+        "hint"
+    ],
+    "devDependencies": {
+        "eslint": "^6.8.0"
+    },
+    "peerDependencies": {
+        "eslint": ">=6.8.0"
+    }
+}
