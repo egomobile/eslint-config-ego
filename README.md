@@ -25,6 +25,16 @@ module.exports = {
 }
 ```
 
+As optional feature, you can add script entry, called `lint` e.g., to your `package.json`:
+
+```json
+{
+    "scripts": {
+        "lint": "eslint -c .eslintrc.js --ext .ts <mySrcFolder>"
+    }
+}
+```
+
 ### Visual Studio Code
 
 First install [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for [Visual Studio Code](https://code.visualstudio.com/) by [Dirk Baeumer](https://marketplace.visualstudio.com/publishers/dbaeumer).
