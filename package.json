@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-ego",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "ESLint shareable config for the e.GO style",
     "license": "MIT",
     "repository": "egodigital/eslint-config-ego",
@@ -38,7 +38,7 @@
         "hint",
         "typescript"
     ],
-    "devDependencies": {
+    "dependencies": {
         "@typescript-eslint/eslint-plugin": "^2.22.0",
         "@typescript-eslint/eslint-plugin-tslint": "^2.22.0",
         "@typescript-eslint/parser": "^2.22.0",
