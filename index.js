@@ -40,18 +40,18 @@ module.exports = {
     ],
     "rules": {
         "camelcase": "off",
-        "@typescript-eslint/array-type": "warn",
-        "@typescript-eslint/await-thenable": "warn",
+        "@typescript-eslint/array-type": "error",
+        "@typescript-eslint/await-thenable": "error",
         "indent": "off",
-        "@typescript-eslint/indent": ["warn", 4],
+        "@typescript-eslint/indent": ["error", 4],
         "@typescript-eslint/interface-name-prefix": [
-            "warn",
+            "error",
             {
                 "prefixWithI": "always",
             },
         ],
         "@typescript-eslint/member-delimiter-style": [
-            "warn",
+            "error",
             {
                 "multiline": {
                     "delimiter": "semi",
@@ -63,9 +63,8 @@ module.exports = {
                 }
             }
         ],
-
         "@typescript-eslint/naming-convention": [
-            "warn",
+            "error",
             {
                 "selector": "typeLike",
                 "format": ["PascalCase"]
@@ -111,45 +110,49 @@ module.exports = {
         ],
 
         "@typescript-eslint/quotes": [
-            "warn",
+            "error",
             "single"
         ],
         "@typescript-eslint/semi": [
-            "warn",
+            "error",
             "always"
         ],
-        "arrow-body-style": "warn",
-        "curly": "warn",
+        "arrow-body-style": "error",
+        "curly": "error",
         "eqeqeq": [
-            "warn",
+            "error",
             "always"
         ],
         "id-blacklist": [
             "warn",
             "any",
-            "Number",
             "number",
-            "String",
             "string",
-            "Boolean",
             "boolean",
-            "Undefined",
-            "undefined"
+            "Undefined"
         ],
-        "id-match": "warn",
-        "import/no-default-export": "warn",
+        "id-match": "error",
+        "import/no-default-export": "error",
         "no-null/no-null": "off",
-        "no-redeclare": "warn",
-        "no-throw-literal": "warn",
-        "no-trailing-spaces": "warn",
-        "no-underscore-dangle": "warn",
-        "no-unused-expressions": "warn",
-        "no-var": "warn",
-        "spaced-comment": "warn",
-        "unicorn/filename-case": "warn",
+        "no-redeclare": "error",
+        "no-throw-literal": "error",
+        "no-trailing-spaces": "error",
+        "no-underscore-dangle": "error",
+        "no-unused-expressions": "error",
+        "no-var": "error",
+        "spaced-comment": "error",
 
-        "valid-jsdoc": "warn",
-        "no-irregular-whitespace": "warn",
-        "brace-style": "warn"
+        "unicorn/filename-case": [
+            "error",
+            {
+                "cases": {
+                    "camelCase": true
+                }
+            }
+        ],
+
+        "valid-jsdoc": "error",
+        "no-irregular-whitespace": "error",
+        "brace-style": "error"
     }
 };
