@@ -36,7 +36,8 @@ module.exports = {
         "@typescript-eslint",
         "unicorn",
         "eslint-plugin-import",
-        "no-null"
+        "no-null",
+        "eslint-plugin-jsdoc"
     ],
     "rules": {
         "camelcase": "off",
@@ -150,8 +151,18 @@ module.exports = {
             }
         ],
 
-        "valid-jsdoc": "error",
         "no-irregular-whitespace": "error",
-        "brace-style": "error"
+        "brace-style": "error",
+
+        "jsdoc/require-returns-type": "error",
+        "jsdoc/require-returns-description": "error",
+        "jsdoc/valid-types": "error",
+        "jsdoc/check-syntax": "error",
+        "jsdoc/require-returns": "error",
+        "jsdoc/require-param": "error",
+        "jsdoc/require-param-name": "error",
+        "jsdoc/check-param-names": "error",
+        "jsdoc/require-param-type": "error",
+        "jsdoc/require-param-description": "error",
     }
 };
