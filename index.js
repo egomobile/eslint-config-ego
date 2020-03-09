@@ -104,8 +104,7 @@ module.exports = {
             },
             {
                 "selector": "parameter",
-                "format": ["camelCase"],
-                "leadingUnderscore": "allow"
+                "format": ["camelCase"]
             },
         ],
 
