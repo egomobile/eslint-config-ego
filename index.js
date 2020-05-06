@@ -40,6 +40,9 @@ module.exports = {
         "eslint-plugin-jsdoc"
     ],
     "rules": {
+        "quote-props": ["error", "as-needed", {
+            "numbers": true
+        }],
         "camelcase": "off",
         "@typescript-eslint/array-type": "error",
         "@typescript-eslint/await-thenable": "error",
