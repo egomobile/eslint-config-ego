@@ -40,6 +40,7 @@ module.exports = {
         "eslint-plugin-jsdoc"
     ],
     "rules": {
+        "require-await": ["error"],
         "quote-props": ["error", "as-needed", {
             "numbers": true
         }],
