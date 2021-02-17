@@ -50,12 +50,6 @@ module.exports = {
         "@typescript-eslint/await-thenable": "error",
         "indent": "off",
         "@typescript-eslint/indent": ["error", 4],
-        "@typescript-eslint/interface-name-prefix": [
-            "error",
-            {
-                "prefixWithI": "always",
-            },
-        ],
         "@typescript-eslint/member-delimiter-style": [
             "error",
             {
