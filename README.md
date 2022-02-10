@@ -69,4 +69,4 @@ To keep sure, to have the extension installed, create a `extensions.json` file i
 
 ## License
 
-MIT © [e.GO Digital GmbH](https://e-go-digital.com/), Aachen, Germany
+MIT © [e.GO Mobile](https://e-go-mobile.com/), Aachen, Germany

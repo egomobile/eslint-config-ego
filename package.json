@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-ego",
-    "version": "0.16.1",
+    "version": "0.16.2",
     "description": "ESLint shareable config for the e.GO style.",
     "license": "MIT",
     "repository": {
