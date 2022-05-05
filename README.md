@@ -63,10 +63,6 @@ To keep sure, to have the extension installed, create a `extensions.json` file i
 }
 ```
 
-## Migrate from TSLint
-
-* [Migrate from TSLint to ESLint](https://code.visualstudio.com/api/advanced-topics/tslint-eslint-migration)
-
 ## License
 
 MIT © [e.GO Mobile](https://e-go-mobile.com/), Aachen, Germany
