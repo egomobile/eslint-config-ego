@@ -41,9 +41,7 @@ module.exports = {
     ],
     "rules": {
         "require-await": ["error"],
-        "quote-props": ["error", "as-needed", {
-            "numbers": true
-        }],
+        "quote-props": ["error", "always"],
         "comma-dangle": ["error", "never"],
         "camelcase": "off",
         "@typescript-eslint/array-type": "error",
@@ -59,7 +57,7 @@ module.exports = {
                 },
                 "singleline": {
                     "delimiter": "semi",
-                    "requireLast": false
+                    "requireLast": true
                 }
             }
         ],
@@ -106,53 +104,67 @@ module.exports = {
                 "selector": "parameter",
                 "format": ["camelCase"]
             },
+            {
+                "selector": "interface",
+                "format": ["PascalCase"],
+                "custom": {
+                    "regex": "^I[A-Z]",
+                    "match": false
+                }
+            },
         ],
-
         "@typescript-eslint/quotes": [
             "error",
-            "single"
+            "double"
         ],
         "@typescript-eslint/semi": [
             "error",
             "always"
         ],
-        "arrow-body-style": "error",
+        "arrow-body-style": ["error", "always"],
         "curly": "error",
         "eqeqeq": [
             "error",
             "always"
         ],
         "id-blacklist": [
+            "error",
             "warn",
             "any",
             "number",
             "string",
             "boolean",
-            "Undefined"
+            "Undefined",
+            "err",
+            "e",
+            "cb",
+            "callback"
         ],
-        "id-match": "error",
-        "import/no-default-export": "error",
+        "import/no-default-export": "off",
         "no-null/no-null": "off",
         "no-redeclare": "error",
         "no-throw-literal": "error",
         "no-trailing-spaces": "error",
-        "no-underscore-dangle": "error",
+        "no-underscore-dangle": "off",
         "no-unused-expressions": "error",
         "no-var": "error",
-        "spaced-comment": "error",
-
+        "spaced-comment": [
+            "error", "always",
+            {
+                "markers": ["/"]
+            }
+        ],
         "unicorn/filename-case": [
             "error",
             {
                 "cases": {
-                    "camelCase": true
+                    "camelCase": true,
+                    "pascalCase": true
                 }
             }
         ],
-
         "no-irregular-whitespace": "error",
-        "brace-style": "error",
-
+        "brace-style": ["error", "stroustrup"],
         "jsdoc/require-returns-type": "error",
         "jsdoc/require-returns-description": "error",
         "jsdoc/valid-types": "error",
