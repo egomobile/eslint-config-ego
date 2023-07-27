@@ -4,6 +4,7 @@
 
 - [Node 18](https://nodejs.org/gl/blog/release/v18.0.0/) is required now
 - update dependencies
+- move to module owned by `Next.e.GO Mobile SE`
 
 ## 0.17.0
 

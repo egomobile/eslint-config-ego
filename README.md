@@ -1,13 +1,13 @@
 # eslint-config-ego
 
-[![npm](https://img.shields.io/npm/v/eslint-config-ego.svg)](https://www.npmjs.com/package/eslint-config-ego)
+[![npm](https://img.shields.io/npm/v/@egomobile/eslint-config-ego.svg)](https://www.npmjs.com/package/@egomobile/eslint-config-ego)
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the e.GO style guide
 
 ## Installation
 
 ```
-$ npm install --save-dev eslint eslint-config-ego
+$ npm install --save-dev eslint @egomobile/eslint-config-ego
 ```
 
 ## Usage

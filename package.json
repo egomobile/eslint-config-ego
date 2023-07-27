@@ -1,11 +1,11 @@
 {
-    "name": "eslint-config-ego",
+    "name": "@egomobile/eslint-config-ego",
     "version": "0.18.0",
     "description": "ESLint shareable config for the e.GO style.",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/egomobile/eslint-config-ego"
+        "url": "https://www.npmjs.com/package/@egomobile/eslint-config-ego"
     },
     "author": "Next.e.GO Mobile SE, Aachen, Germany",
     "engines": {
