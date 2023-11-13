@@ -1,11 +1,11 @@
 {
-    "name": "@egomobile/eslint-config-ego",
-    "version": "0.18.0",
+    "name": "eslint-config-ego",
+    "version": "0.19.0",
     "description": "ESLint shareable config for the e.GO style.",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://www.npmjs.com/package/@egomobile/eslint-config-ego"
+        "url": "https://www.npmjs.com/package/eslint-config-ego"
     },
     "author": "Next.e.GO Mobile SE, Aachen, Germany",
     "engines": {
@@ -46,18 +46,17 @@
         "typescript"
     ],
     "dependencies": {
-        "@typescript-eslint/eslint-plugin": "6.2.0",
-        "@typescript-eslint/eslint-plugin-tslint": "6.2.0",
-        "@typescript-eslint/parser": "6.2.0",
-        "eslint": "8.44.0",
-        "eslint-plugin-import": "2.27.5",
-        "eslint-plugin-jsdoc": "46.4.5",
+        "@typescript-eslint/eslint-plugin": "6.11.0",
+        "@typescript-eslint/eslint-plugin-tslint": "6.11.0",
+        "@typescript-eslint/parser": "6.11.0",
+        "eslint": "8.53.0",
+        "eslint-plugin-import": "2.29.0",
+        "eslint-plugin-jsdoc": "46.9.0",
         "eslint-plugin-no-null": "1.0.2",
-        "eslint-plugin-unicorn": "48.0.1",
-        "typescript": "4.9.5"
+        "eslint-plugin-unicorn": "49.0.0",
+        "typescript": "4.7.4"
     },
     "peerDependencies": {
-        "tslint": ">=6.1.3",
-        "eslint": ">=8.44.0"
+        "eslint": ">=8.53.0"
     }
 }

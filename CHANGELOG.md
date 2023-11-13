@@ -1,5 +1,9 @@
 # Change Log (@egomobile/api-log)
 
+## 0.19.0
+
+- revert module name to `eslint-config-ego`
+
 ## 0.18.0
 
 - [Node 18](https://nodejs.org/gl/blog/release/v18.0.0/) is required now
